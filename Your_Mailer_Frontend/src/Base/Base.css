@@ -1,0 +1,36 @@
+.base-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    overflow: auto;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/715/514/original/wallpaper-with-blue-button-sending-email-concept-3d-background-with-copy-space-vector.jpg");
+}
+.head-main{
+    height: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgb(121, 119, 119);
+}
+.logo{
+    max-width:55px;
+    margin:20px 8px;
+    border-radius: 10px;
+}
+.btn-box{
+    display: flex;
+    flex-direction: row;
+}
+.nav-btn:focus{
+    border-bottom: 4px solid rgb(11, 94, 202);
+}
+.body-content{
+    height: 100%;
+}

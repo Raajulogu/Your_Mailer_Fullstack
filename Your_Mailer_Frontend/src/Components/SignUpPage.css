@@ -1,0 +1,36 @@
+.sign-container{
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/02/77/26/88/360_F_277268851_gf1sqxszssfMlPasgqvjtf2ddwMKmeLI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.sign-main{
+    height: 100%;
+}
+.sign-column{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-box{
+    min-width: 30%;
+    min-height: 60%;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    animation: signUp-box;
+    animation-duration: 3s;
+}
+@keyframes signUp-box{
+    from{
+        transform: translateY(110%);
+    }
+}
+.sign-form{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}

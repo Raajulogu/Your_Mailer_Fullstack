@@ -1,0 +1,43 @@
+.mail-container{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+.mail-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.mail-form{
+    background-color: rgba(216, 216, 216, 0.966);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px;
+    animation: mail-forms;
+    animation-duration: 3s;
+}
+@keyframes mail-forms{
+    from{
+        transform: translateX(-100%);
+    }
+}
+input[type="file"]::file-selector-button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.file-field{
+    display: flex;
+    flex-direction: row;
+}
+.delay{
+    width: 40%;
+}

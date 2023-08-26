@@ -1,0 +1,35 @@
+.login-container{
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/02/77/26/88/360_F_277268851_gf1sqxszssfMlPasgqvjtf2ddwMKmeLI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-main{
+    height: 100%;
+}
+.login-column{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    min-width: 30%;
+    min-height: 40%;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    animation: login-box;
+    animation-duration: 3s;
+}
+@keyframes login-box{
+    from{
+        transform: translateY(110%);
+    }
+}
+.login-form{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
